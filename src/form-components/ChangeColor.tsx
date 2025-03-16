@@ -54,6 +54,7 @@ export function ChangeColor(): React.JSX.Element {
             <p>
                 You have chosen{" "}
                 <span
+                    data-testid="colored-box"
                     style={{
                         backgroundColor: selectedColor,
                         color: "black",
